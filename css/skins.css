@@ -1,0 +1,87 @@
+/* Skins */
+.default-skin{
+   --theme-color: #FF4E50;
+
+}
+/* Endless River */
+.endless-river {
+	--theme-color: #43cea2;
+	background: #43cea2;
+}
+
+
+/* Crazy Orange */
+
+.crazy-orange {
+	--theme-color: #D38312;
+	background: #D38312;
+}
+
+
+/* Between the Clouds */
+
+.between-clouds {
+	--theme-color: #73C8A9;
+	background: #73C8A9;
+}
+
+
+/* Amethyst */
+
+.amethyst {
+	--theme-color: #9D50BB;
+	background: #9D50BB;
+}
+
+
+/* Man of the Steel */
+
+.steel-man {
+	--theme-color: #780206;
+	background: #780206;
+}
+
+
+/* Dance to Forget */
+
+.d2f {
+	--theme-color: #FF4E50;
+	background: #FF4E50;
+
+}
+
+
+/* Park Life */
+
+.park-life {
+	--theme-color: #ADD100;
+	background: #ADD100;
+
+}
+
+
+/* Moonlit Asteroid */
+
+.moonlit {
+	--theme-color: #0F2027;
+	background: #0F2027;
+
+}
+
+
+/* Facebook Messenger */
+
+.fb-messenger {
+	--theme-color: #00c6ff;
+	background: #00c6ff;
+	
+}
+
+
+/* Flickr */
+
+.flickr {
+	--theme-color: #ff0084;
+	background: #ff0084;
+
+}
