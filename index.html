@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <meta charset="UTF-8" />
+   <title> Material Design Pull & Sliding Menu with jQuery - Flat Menu</title>
+
+<!--Material Design Iconic Font-->
+<link rel="stylesheet" href="material-design/css/material-design-iconic-font.min.css">
+
+<!--Google Fonts-->
+<link href="https://fonts.googleapis.com/css?family=Hind|Oxygen" rel="stylesheet" />
+<!--jQuery-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+ <!--Flat Menu JS-->
+<script src="js/flat-menu.js"></script>
+
+  <!--Flat Menu CSS-->
+<link rel="stylesheet" href="css/flat-menu.css" />
+<link rel="stylesheet" href="css/skins.css" />
+
+
+<!--Demo Only-->
+<script src="demo/demo.js"></script>
+<link rel="stylesheet" href="demo/demo.css" />
+
+
+<style>
+
+
+
+
+
+</style>
+
+
+</head>
+<body>
+
+
+<aside class="side-bar default-skin">
+
+<div class="nav-container">
+<ul class="menu-side-icons">
+
+<li class="home">
+<a href="#home_link"> <i class="zmdi zmdi-home forside"></i></a> </li>
+
+<li class="lists"> <i class="zmdi zmdi-view-list forside"></i> </li>
+
+
+<li class="widgets"> <i class="zmdi zmdi-widgets forside"></i> </li>
+
+<li class="devices"> <i class="zmdi zmdi-devices forside"></i> </li>
+
+<li class="profile"> <i class="zmdi zmdi-account forside"></i>
+   
+</li>
+
+<li class="notify"> <i class="zmdi zmdi-notifications forside"></i>
+    <span class="notify-badge"></span>
+</li>
+
+<li><a href="#blog-link"> <i class="zmdi zmdi-view-web forside"></i> </a></li>
+
+<ul>
+</div>
+
+</aside>
+
+
+<!--Navigation Start-->
+
+<div class="flat-menu default-skin">
+<nav class="lists-items">
+<ul>
+   <li><a href="#1">Item one  </a> </li>
+         <!--Dropdown-->
+   <li class="has-sub"> <span class="dropdown-heading"> Item two with dropdown </span> 
+     <ul> 
+      <li> <a href="#2">sub item 1 </a> </li>
+     <li> <a href="#2">sub item 2 </a> </li>
+      <li> <a href="#2">sub item 3 </a> </li>
+     <li> <a href="#2">sub item 4 </a> </li>
+      <li> <a href="#2">sub item 5 </a> </li>
+     <li> <a href="#2">sub item 6 </a> </li>
+     </ul> 
+ </li>
+<li class="has-sub"> <span class="dropdown-heading"> Item three with dropdown </span> 
+     <ul> 
+      <li> <a href="#2">sub item 1 </a> </li>
+     <li> <a href="#2">sub item 2 </a> </li>
+      <li> <a href="#2">sub item 3 </a> </li>
+     <li> <a href="#2">sub item 4 </a> </li>
+     </ul> 
+ </li>
+
+   <li> <a href="#1"> Item three </a> </li>
+   <li> <a href="#1"> Item four </a> </li>
+   <li> <a href="#1"> Item five </a> </li>
+   <li> <a href="#1"> Item six </a> </li>
+
+</ul>
+</nav> <!--//lists-items-->
+
+<nav class="widget-items">
+<ul>
+  <li> Widget Item 1 </li>
+  <li> Widget Item 2 </li>
+  <li> Widget Item 3 </li>
+  <li> Widget Item 4 </li>
+  <li> Widget Item 5 </li>
+  <li> Widget Item 6 </li>
+  <li> Widget Item 7 </li>
+  <li> Widget Item 8 </li>
+  <li> Widget Item 9 </li>
+  <li> Widget Item 10 </li>
+  <li> Widget Item 11 </li>
+  <li> Widget Item 12 </li>
+  <li> Widget Item 13 </li>
+  <li> Widget Item 14 </li>
+  <li> Widget Item 15 </li>
+</ul>
+
+</nav>  <!--//widget-items-->
+
+
+<nav class="devices-items">
+
+<p> You can put anything here... </p>
+
+</nav>
+
+
+<nav class="notify-items">
+<ul class="notification">
+<li> 
+<a href="#5"> Here is a most recent notice</a>
+    <time class="ago"> a moment ago... </time> 
+   
+</li> 
+<li> 
+<a href="#5"> Notification item two </a>
+<time class="ago"> 1 minute ago... </time> 
+</li> 
+
+<li> 
+<a href="#5"> Notification item three </a>
+<time class="ago"> 5 minutes ago... </time> 
+</li> 
+<li>
+<a href="#5"> This is fourth notification </a>
+<time class="ago"> 15 minutes ago... </time> 
+</li> 
+<li> 
+<a href="#5"> Older notification </a>
+<time class="ago">  a day ago... </time> 
+</li> 
+
+</ul>
+</nav> <!--//notify-items-->
+
+<nav class="profile-contents">
+<p> User Profile Goes Here... </p>
+
+
+</nav> <!--//profile-contents-->
+
+</div> <!--//flat-menu-->
+
+
+<!--Navigation Ended-->
+
+
+
+
+
+
+<main>
+
+
+<div class="intro codehim-header">
+<h1> Material Design Pull &amp; Sliding Menu with jQuery </h1>
+
+<p>
+Pull and sliding navigation system with Client-Side Functionalities using Material Design, HTML5, CSS3 and jQuery. 
+
+</p>
+<svg class="polygon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+    <polygon fill="white" points="0,100 100,0 100,100"/>
+  </svg>
+</div>
+
+
+<article>
+<h2> To do </h2>
+<ul>
+<li>Pull the Sidebar (from the edge) to see the sliding at the same time.  </li>
+<li>Look at notification bage, open it, close all notifications one by one and see how it works.  </li>
+<li>Toggle the menu by second "list icon". </li>
+
+</ul>
+
+<h3>Change Navigation Skins</h3> 
+<div class="theme-tray">
+   <section class="skins">
+         <span title="Flickr" class="flickr"> </span>
+         <span title="Facebook Messenger" class="fb-messenger"> </span>
+         <span title="Moonlit Asteroid" class="moonlit"> </span>
+         <span title="Park Life" class="park-life"> </span>
+         <span title="Dance to Forget" class="d2f"> </span>
+         <span title="Man of the Steel" class="steel-man"> </span>
+         <span title="Amethyst" class="amethyst"> </span>
+         <span title="Between the Clouds" class="between-clouds"> </span>
+         <span title="Crazy Orange"class="crazy-orange"> </span>
+         <span title="Endless River" class="endless-river"> </span>
+      </section>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-7089100907045419"
+     data-ad-slot="7782420780"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
+
+
+<h2> Main Features</h2>
+<ul>
+<li>Fully Responsive, auto adoptive height, swipe and pulling support.  </li> 
+<li> Chrome, Safari, Firefox, Opera, IE10+, IOS, Android and windows phone supported. </li> 
+<li> Material Design Iconic Fonts. </li> 
+<li> Radial out, fading (in & out), sliding, pushing and pulling effects. </li> 
+<li>Unlimited Main items, dropdowns, sub items can be added.  </li> 
+<li>Grid Layouts for Widgets items.  </li>
+<li> Client-Side Notification System. (close able &amp; auto notification counter bage.)</li> 
+
+</ul>
+
+
+
+<h2> Experimental version</h2>
+<p> It's an experimental version of "Pull &amp; Sliding Navigation" as I used  HTML5<code> input range</code>  element to minimize the complexities and size of code. However, swipe works quite fine (on touch devices and desktop) while opening and closing menu with this logic. </p>
+
+
+<h2> More Projects </h2>
+
+   
+</article>
+</main>
+
+
+
+  
+ 
+<footer class="credit">
+Coded with <span title="heart"></span> by Asif Mughal &copy; 2018 - <a href="https://www.codehim.com" rel="dofollow" title="Awesome Web Projects and Tutorials" target="_blank"> Codehim.com </a>
+      </footer>
+</body>
+</html>
